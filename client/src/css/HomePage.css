@@ -1,0 +1,129 @@
+body{
+  background:bisque;
+}
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.new-tweet-form {
+  order: 1;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+.new-tweet-form > label {
+  order: 1;
+  color: #0c2c6b;
+  font-size: larger;
+}
+
+.new-tweet-form > textarea {
+  order: 2;
+  font-size: medium;
+  padding: 10px;
+  border: 0;
+  border-radius: 15px;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  width: 100%;
+  resize: none;
+  outline: none;
+  background-color: #fff8fb;
+}
+
+.new-tweet-form > button {
+  order: 3;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(12, 107, 107);
+  color: white;
+  text-transform: uppercase;
+  width: 50%;
+}
+
+button:hover {
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(211, 209, 209);
+  color:  rgb(12, 107, 107);
+}
+
+.tweets {
+  order: 2;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.tweets > .title_Tweets {
+  font-size: xx-large;
+  color: #0c2c6b;
+  margin-bottom: 2%;
+  text-transform: uppercase;
+
+}
+
+.filter {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 4em;
+}
+
+.filter button {
+  border: 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(12, 107, 107);
+}
+
+.filter button:hover {
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(211, 209, 209);
+  color:  rgb(12, 107, 107);
+}
+
+.filter > .following_tweets{
+  height: 60px;
+  margin-top: 1em;
+}
+
+.filter > .exact_date {
+  order: 2;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.filter > .exact_date > button{
+  height: 30px;
+  margin-top: 10%;
+}
+
+.filter > .range_date {
+  order: 3;
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.filter > .range_date > button{
+  height: 30px;
+  margin-top: 5%;
+}

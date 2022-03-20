@@ -1,0 +1,122 @@
+body {
+  background-color: bisque;
+}
+
+.container-login {
+  display: flex;  
+  flex-direction: column;
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  padding-top: 15px;
+  border: 0;
+  border-radius: 10px;
+  background-color: #fff8fb;
+}
+
+.header {
+  order: 1;
+  font-size: 2em;
+  font-weight: bold;
+  color: rgb(12, 107, 107);
+}
+
+.container-login > .line {
+  order: 2;
+  border-top: 2px solid bisque;
+  border-radius: 75%;
+  margin-top: 10px;
+  border-color: bisque;
+}
+
+.login-form{
+  order: 3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.login-form > .elements  {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+  margin-top: 15px;
+}
+
+.elements > label {
+  font-size: 15px;
+  margin-top: 10px;
+}  
+.elements > input {
+  height: 25px;
+  width: 300px;
+  margin-top: 5px;
+  min-width: 1em;
+  border: 1;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.elements > input:focus {
+  outline: 1px;
+  box-shadow: 0px 0px 5px 0.5px rgba(27, 18, 82, 0.815);
+}
+
+.login-form > button {
+  margin-top: 30px;
+  width: 150px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(12, 107, 107);
+  color: white;
+  text-transform: uppercase;
+}
+
+.login-form > button:hover {
+  outline: none;
+  background-color: rgb(211, 209, 209);
+  color:  rgb(12, 107, 107);
+}
+
+.container-login > .line2 {
+  order: 4;
+  border-top: 2px solid #bbb;
+  border-radius: 75%;
+  margin-top: 10px;
+  border-color: bisque;
+}
+
+.signup {
+  order: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.signup > .link-signup > .button-signup {
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(12, 107, 107);
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.signup > .link-signup > .button-signup:hover {
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(211, 209, 209);
+  color:  rgb(12, 107, 107);
+}
+
+button {
+  cursor: pointer;
+}

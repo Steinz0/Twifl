@@ -1,0 +1,94 @@
+body {
+  background-color: bisque;
+}
+
+.container-tweet {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tweet {
+  background-color: #fff8fb;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1.5em;
+  border: 0;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 1em;
+  width: 40%;
+}
+
+.info_tweet {
+  order: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.info_tweet > .user_id {
+  margin-right: auto;
+  order: 1;
+  font-size: large;
+  text-decoration: none;
+  color: rgb(18, 82, 134);
+}
+
+.info_tweet > div {
+  order: 2;
+  font-size: small;
+}
+
+.info_tweet > .date {
+  margin-right: 0.5em;
+}
+
+.msg {
+  margin-top: 1em;
+  order: 2;
+  height: 100%;
+  background-color: transparent;
+}
+
+.button_tweet {
+  order: 3;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+
+.button_tweet > .btn_comment {
+  margin-top: 2em;
+  order: 1;
+  margin-right: auto;
+}
+
+.button_tweet > .btn_trash {
+  margin-top: 2em;
+  order: 2;
+}
+
+.button_tweet > * {
+  padding-top: 4px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  background-color: #0c6b6b;
+  color: white;
+  text-transform: uppercase;
+}
+.tweets > .title_Tweets {
+  font-size: 30px;
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+.tweet > * {
+  margin-bottom: 1em;
+}

@@ -1,0 +1,180 @@
+body {
+  background-color: bisque;
+}
+
+.container-register {
+  display: flex;  
+  flex-direction: column;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 30px;
+  padding-top: 15px;
+  border-radius: 10px;
+  background-color: #fff8fb;
+}
+
+.header {
+  order: 1;
+  font-size: 2em;
+}
+
+.container-register > .line {
+  order: 2;
+  border-top: 1px solid bisque;
+  border-radius: 75%;
+  margin-top: 5px;
+  border-color: bisque;
+}
+
+.register-form{
+  order: 3;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+.register-form > .elements-line1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: fit-content;
+  margin-top: 15px;
+}
+
+.register-form > .elements-line1 > .elements {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 100%;
+}
+
+.register-form > .elements-line1 > .elements > input {
+  height: 20px;
+  width: 250px;
+  margin-top: 5px;
+  min-width: 1em;
+  border: 1;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.register-form > .elements {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: fit-content;
+  margin-top: 10px;
+}
+
+.elements > label {
+  font-size: 15px;
+  margin-top: 10px;
+}  
+
+.register-form > .elements > input {
+  height: 20px;
+  width: 500px;
+  margin-top: 5px;
+  min-width: 1em;
+  border: 1;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.elements > input:focus {
+  outline: 1px;
+  box-shadow: 0px 0px 5px 0.5px rgba(27, 18, 82, 0.815);
+}
+
+.required-pw {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  align-items: flex-start;  
+  margin-top: 1em;
+}
+
+.required-pw > * {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: flex-start;  
+  margin-top: 1em;
+}
+
+.same-pw {
+  margin-top: 1.5em;
+}
+
+.register-form > button {
+  margin-top: 30px;
+  width: 150px;
+  height: 20px;
+  border: 0;
+  border-radius: 5px;
+  text-transform: uppercase;
+}
+
+.register-form > .desactivate {
+  cursor: not-allowed;
+  background-color: rgba(176, 179, 178, 0.911);
+  color: rgb(252, 252, 252);
+}
+
+.register-form > .activate {
+  background-color: rgb(12, 107, 107);
+  color: white;
+}
+
+.register-form > .activate:hover {
+  outline: none;
+  background-color: rgb(211, 209, 209);
+  color:  rgb(12, 107, 107);
+}
+
+.line2 {
+  order: 4;
+  border-top: 2px solid #bbb;
+  border-radius: 75%;
+  margin-top: 20px;
+  border-color: darkblue;
+}
+
+.login {
+  order: 5;
+  display: flex;
+  flex-direction: column;
+}
+
+.login > .link-signin > button {
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  background-color: rgb(12, 107, 107);
+  color: white;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.login > .link-signin > button:hover {
+  border: 0;
+  border-radius: 5px;
+  outline: none;
+  background-color: rgb(211, 209, 209);
+  color:  rgb(12, 107, 107);
+}
+
+.green{
+  color: green;
+}
+
+.red{
+  color: red;
+}

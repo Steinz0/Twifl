@@ -1,0 +1,35 @@
+{
+  "name": "touitere",
+  "version": "1.0.0",
+  "description": "Mon app touitère côté serveur",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "test:watch": "mocha test -w",
+    "serve": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "connect-redis": "^5.2.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "http": "0.0.1-security",
+    "http-module": "0.0.5",
+    "https": "^1.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.3.2",
+    "mongodb": "^3.6.4",
+    "nedb": "^1.8.0",
+    "path": "^0.12.7",
+    "redis": "^3.1.2",
+    "session-file-store": "^1.5.0",
+    "sqlite3": "^5.0.2"
+  }
+}
